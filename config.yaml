@@ -119,6 +119,7 @@ params:
     image: "/images/logo.png" 
     # option to specify the width of the image in the homepage
     imageWidth: 500px
+    #title of posts over summaries
     posts_title: Popular Badges
 
   # footer options
