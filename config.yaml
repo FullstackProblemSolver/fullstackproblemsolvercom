@@ -110,11 +110,11 @@ params:
     # this options let you specify the text of the link to the homepage
     # linkText: "Homepage"  
     # option to specify the title in the homepage
-    title: Julia The White
+    title: Fullstack Problem Solver
     # option to specify the subtitle in the homepage
-    subtitle: Personal website and blog
-    bio: "Hi, I'm Julia White. This is where I can put a few sentences or a paragraph about myself to introduce you to me and my website"
-    bulletpoints: ["Bullet Point 1","Bullet Point 2"]
+    subtitle: Learning By Doing, Pair Programming
+    bio: "We are fullstack problem solvers using this site to share our findings, explore technology to solve problems, and practice prair programming"
+    bulletpoints: ["Fullstack Learning","Pair Programming"]
     # option to specify image in the homepage
     image: "/images/logo.png" 
     # option to specify the width of the image in the homepage
