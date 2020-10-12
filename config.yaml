@@ -110,15 +110,15 @@ params:
     # this options let you specify the text of the link to the homepage
     # linkText: "Homepage"  
     # option to specify the title in the homepage
-    title: Fullstack Problem Solver
+    title: Fullstack Problem Solving
     # option to specify the subtitle in the homepage
     subtitle: Learning By Doing, Pair Programming
-    bio: "We are fullstack problem solvers using this site to share our findings, explore technology to solve problems, and practice pair programming"
+    bio: "We are fullstack problem solvers using this site to share our findings, explore technology to solve problems, and practice pair programming."
     bulletpoints: ["Fullstack Learning","Pair Programming"]
     # option to specify image in the homepage
     image: "/images/logo.png" 
     # option to specify the width of the image in the homepage
-    imageWidth: 500px
+    imageWidth: 60%
     #title of posts over summaries
     posts_title: Popular Badges
 
