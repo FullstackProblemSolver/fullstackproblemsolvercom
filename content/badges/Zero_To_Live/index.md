@@ -4,14 +4,14 @@ date: 2019-11-18T23:53:00+01:00
 draft: true
 hideLastModified: false
 summary: "Creating a portfolio website at your own domain using Hugo"
-summaryImage: "0-Live_v2.png"
+summaryImage: "images/0-Live_v2.png"
 tags: ["How Tos"]
 ---
 
-//Add a sentence or two here about what this is about
+//Add a sentence or two here stating what this is about
 
 
-**Buying A Domain:**
+# Buying A Domain:
 1. Go to namecheap.com
 2. Log-in or Create an account & then log in
 3. Hover over the Domains tab at the top and click on Domain Name Search
@@ -26,7 +26,7 @@ tags: ["How Tos"]
 9. Enter your billing information
 10. Complete the Order
 
-Create Your Personal Website:
+# Create Your Personal Website:
 Go to fullstackproblemsolvers.com and get to the fullstack-portfolio-refresh Github repo
 
 Follow the directions in the Readme
