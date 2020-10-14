@@ -4,7 +4,7 @@ date: 2019-11-18T23:53:00+01:00
 draft: true
 hideLastModified: false
 summary: " Zero to Live in 30 Minutes! Creating a portfolio website using your own domain and Hugo."
-summaryImage: "images/inspiration.png"
+summaryImage: "images/personalWebsiteBadge.png"
 tags: ["How Tos"]
 ---
 
@@ -22,20 +22,29 @@ Ready to earn your Personal Website Portfolio Badge? Follow the steps below and 
  ![namecheap](./images/namecheap.png)
 
 5. You will be given a list of options and their respective prices
-6. Select the Add to cart button the domain name you would like to use
+6. Select the "Add to cart" button next to the domain name you would like to buy
 7. When you are ready click on the the Checkout icon at the bottom right
 8. Complete the Setup steps
 9. Enter your billing information
 10. Complete the Order
 
 # Create Your Personal Website:
+
+Start by retrieving our fullstack-portfolio-refresh theme.
+
 1. Go to fullstackproblemsolvers.com and get to the fullstack-portfolio-refresh Github repo
 2. Follow the directions in the Readme
-3. Go back to your command Line and do a Git add -A
-4. Do a git commit -m “Initial commit of personal website for [Insert your website name]”
+3. Go back to your command line and do a:
+```
+git add -A
+```
+4. Then do a:
+```
+git commit -m “Initial commit of personal website for [Insert your website name]”
+```
 5. Go to Github
 6. Create a new repository
-7. Repository name should be the same as what you named it on your local computer
+7. The repository name should be the same as what you named it on your local computer
 8. Leave all the initialization options as default, and Click “create repository”
 9. Use the “push an existing repository directions”
 10. Now go to Netlify
