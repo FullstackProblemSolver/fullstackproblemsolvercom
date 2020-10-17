@@ -1,7 +1,7 @@
 ---
-title: "Personal Website Badge"
+title: "Portfolio Website Badge"
 date: 2019-11-18T23:53:00+01:00
-draft: true
+draft: false
 hideLastModified: false
 summary: " Zero to Live in 30 Minutes! Creating a portfolio website using your own domain and Hugo."
 summaryImage: "images/personalWebsiteBadge.png"
@@ -23,13 +23,7 @@ Ready to earn your Personal Website Portfolio Badge? Follow the steps below and 
 
 <a href="./images/namecheap.png" data-lightbox="namecheap.png" data-title="My caption" maxWidth=50%><img src="./images/namecheap.png" alt="Showing Domain Name Search" style="width:20%"></a>
 
-<script>
-    lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true,
-      'maxWidth':250
-    })
-</script>
+
 
 {{< imageToClick imagePath = "./images/namecheap.png"  width ="40%">}}
 
