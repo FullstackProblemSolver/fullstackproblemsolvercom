@@ -21,6 +21,20 @@ Ready to earn your Personal Website Portfolio Badge? Follow the steps below and 
 
  ![namecheap](./images/namecheap.png)
 
+<a href="./images/namecheap.png" data-lightbox="namecheap.png" data-title="My caption" maxWidth=50%><img src="./images/namecheap.png" alt="Showing Domain Name Search" style="width:20%"></a>
+
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'maxWidth':250
+    })
+</script>
+
+{{< imageToClick imagePath = "./images/namecheap.png"  width ="40%">}}
+
+hello2
+
 5. You will be given a list of options and their respective prices
 6. Select the "Add to cart" button next to the domain name you would like to buy
 7. When you are ready click on the the Checkout icon at the bottom right
