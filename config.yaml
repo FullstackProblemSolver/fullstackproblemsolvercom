@@ -1,6 +1,6 @@
 baseURL: https://example.com
 languageCode: en-us
-title: Personal website and blog
+title: Fullstack Problem Solving
 theme: fullstack-portfolio-refresh
 # theme: ../..
 
@@ -120,7 +120,7 @@ params:
     # option to specify the width of the image in the homepage
     imageWidth: 60%
     #title of posts over summaries
-    posts_title: Popular Badges
+    posts_title: Fullstack Learning
 
   # footer options
   footer:

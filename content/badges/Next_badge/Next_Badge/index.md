@@ -1,11 +1,11 @@
 ---
-title: "Portfolio Website Badge"
+title: "Next Badge"
 date: 2019-11-18T23:53:00+01:00
 draft: false
 hideLastModified: false
 summary: " Zero to Live in 30 Minutes! Creating a portfolio website using your own domain and Hugo."
 summaryImage: "images/personalWebsiteBadge.png"
-tags: ["How Tos"]
+tags: ["how-tos", "Website Portfolio"]
 ---
 
 <!-- Add a sentence or two here stating what this is about -->
