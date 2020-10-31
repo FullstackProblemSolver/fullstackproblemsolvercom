@@ -6,7 +6,8 @@ hideLastModified: true
 showInMenu: true
 type: "sectionleads"
 tags: ["homepage"]
-weight: 2
+weight: 10
+series: notfeaturedSection
 # no need for the "summary" parameter as it is not displayed in any previews
 
 ---
