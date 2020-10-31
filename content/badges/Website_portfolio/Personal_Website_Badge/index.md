@@ -8,7 +8,7 @@ summaryImage: "images/personalWebsiteBadge.png"
 tags: ["how-tos", "Website Portfolio", "homepage"]
 pinned: true
 weight: 5
-series: "testing"
+series: "featured"
 ---
 
 <!-- Add a sentence or two here stating what this is about -->
@@ -28,7 +28,18 @@ Ready to earn your Personal Website Portfolio Badge? Follow the steps below and 
 
 
 
+{{< imageToClick imagePath = "./images/namecheap.png"  width ="90%">}}
+
+
+{{< imageToClick imagePath = "./images/namecheap.png"  width ="80%">}}
+
+{{< imageToClick imagePath = "./images/namecheap.png"  width ="70%">}}
+{{< imageToClick imagePath = "./images/namecheap.png"  width ="60%">}}
+{{< imageToClick imagePath = "./images/namecheap.png"  width ="50%">}}
 {{< imageToClick imagePath = "./images/namecheap.png"  width ="40%">}}
+
+
+
 
 hello2
 
