@@ -7,8 +7,6 @@ showInMenu: true
 series: featuredSection
 weight: 6
 summaryImage: "personalWebsiteBadge.png"
-cascade:
-  banner: "images/typewriter.jpg"
 summary: "Information curation and knowledge management is a critical skill for fullstack problem solving. Using a online portfolio to share journies, expertise, and lessons learned is corner stone for being a fullstack problem solver. Recipes included to create your own open source online portfolio"
 
 # no need for the "summary" parameter as it is not displayed in any previews
