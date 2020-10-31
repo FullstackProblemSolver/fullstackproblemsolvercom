@@ -1,16 +1,21 @@
 ---
-title: "Portfolio Websites"
+title: "Creating An Online Portfolio"
 date: 2019-06-17T23:53:00+01:00
 draft: false
 hideLastModified: true
 showInMenu: true
-type: "sectionleads"
-weight: 1
+series: featuredSection
+weight: 6
+summaryImage: "personalWebsiteBadge.png"
+cascade:
+  banner: "images/typewriter.jpg"
+summary: "Information curation and knowledge management is a critical skill for fullstack problem solving. Using a online portfolio to share journies, expertise, and lessons learned is corner stone for being a fullstack problem solver. Recipes included to create your own open source online portfolio"
+
 # no need for the "summary" parameter as it is not displayed in any previews
 
 ---
 
-Reasons to have portfolio website. Adding more text, more text, more test, more text, more text:
-* Reason 1
-* Reason 2
-* Reason 3
+**Information curation** and **knowledge management** is a critical skill for fullstack problem solving. 
+Having an online platform to share how-tos, expertise, and lessons learned is corner stone for being a fullstack problem solver. 
+
+There are a *infinite* and every-changing breadth technologies and existing platforms that allow users to setup a online/website portfolio. 
