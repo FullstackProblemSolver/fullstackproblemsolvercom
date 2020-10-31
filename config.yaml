@@ -121,6 +121,13 @@ params:
     imageWidth: 60%
     #title of posts over summaries
     posts_title: Fullstack Learning
+    # customized settings to allow to have featured sectional 
+    # posts on the homepage. Leaving to false is default and 
+    # then posts will be sorted by Weight:
+    # Feature posts in homepage that have "series: featured" front matter
+    useFeaturedSeries: true #if false, any post come come to front page by weight weight:1 is top post
+
+
 
   # footer options
   footer:
