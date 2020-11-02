@@ -1,14 +1,14 @@
 ---
-title: "Portfolio Website Badge"
+title: "Zero to Live with Hugo FSPS Theme"
 date: 2019-11-18T23:53:00+01:00
 draft: false
 hideLastModified: false
 summary: " Zero to Live in 30 Minutes! Creating a portfolio website using your own domain and Hugo."
-summaryImage: "images/personalWebsiteBadge.png"
+summaryImage: "images/0-Live_v3.png"
 tags: ["how-tos", "Website Portfolio", "homepage"]
 pinned: true
 weight: 5
-series: "featured"
+series: "notfeatured"
 ---
 
 <!-- Add a sentence or two here stating what this is about -->
