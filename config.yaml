@@ -113,7 +113,7 @@ params:
     title: Fullstack Problem Solving
     # option to specify the subtitle in the homepage
     subtitle: Learning By Doing, Pair Programming
-    bio: "We are fullstack problem solvers using this site to share our findings, explore technology to solve problems, and practice pair programming."
+    bio: "Our names are Pete Dunham and Tony Villa-Cruz and we are fullstack problem solvers using this site to share our findings, explore technologies to solve problems, and practice pair programming."
     bulletpoints: ["Fullstack Learning","Pair Programming"]
     # option to specify image in the homepage
     image: "/images/logo.png" 
