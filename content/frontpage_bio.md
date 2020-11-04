@@ -4,7 +4,7 @@ date: 2019-06-17T23:53:00+01:00
 draft: false
 type: "Badges"
 hideLastModified: true
-showInMenu: true
+showInMenu: false
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
 The badging system is we have created is based on a concept of self-credentialling as well as a concept that we came up with that we call, **Full Stack Problem Solving**. Full stack problem solving requires embodying 3 basic actions: Learn, Apply, Teach.
