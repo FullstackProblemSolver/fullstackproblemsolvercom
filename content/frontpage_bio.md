@@ -7,9 +7,6 @@ hideLastModified: true
 showInMenu: false
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
-<center><img src="badge_collage.png" alt="Showing Domain Name Search" style="width:100%"></center>
-
-
 **Full Stack Problem Solving** is a self-credentialization badging system concept embodying 3 basic actions: Learn, Apply, Teach.
 
 * *LEARN* - Learning is the first step in the process and can take many forms. Some choose to take classes, some read text books, and some hack away. Trying to choose which method can often be the most intimidating part, but the key is just being willing to take the first step! 

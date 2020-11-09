@@ -1,0 +1,54 @@
+{{- define "main" -}}
+  
+  {{- partial "navbar.html" . -}}
+  {{- partial "navbar-clone.html" . -}}
+  {{- $homepage   := .Site.Params.homepage -}}
+
+  {{- $title      := index $homepage "title" -}}
+  {{- $subtitle   := index $homepage "subtitle" -}}
+  {{- $image      := index $homepage "image" -}}
+
+  <div class="container is-medium">
+    <div class="columns is-multiline">
+      
+
+      <div class="column is-1" align="center">    
+
+      </div>
+
+    <div class="column is-10">
+
+
+        <h1 class="title is-1 is-bold is-spaced" align="center" >Full Stack Problem Solver</h1>
+       
+
+
+        <div class="container">
+          {{ with $.Site.GetPage "frontpage_bio.md" }} <section class="section content has-text-left">
+            <!-- <div class="content"> -->
+              {{- .Content -}}
+           <!-- </div> -->
+      </section>
+      {{ end }}
+      {{- partial "posts-by-weights.html" . -}}
+    </div>
+
+     <div class="column is-1" align="center">    
+
+      </div>
+
+  </div>
+  
+  </div>
+  </div>
+
+
+
+    {{- partial "footer.html" . -}}
+
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    {{- partial "sidebar.html" . -}}
+
+{{- end -}}
