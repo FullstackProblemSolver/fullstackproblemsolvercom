@@ -5,7 +5,7 @@ draft: false
 hideLastModified: false
 summary: " Zero to Live in 30 Minutes! Creating a portfolio website using your own domain and Hugo."
 summaryImage: "images/0-Live_v3.png"
-tags: ["how-tos", "Website Portfolio", "homepage"]
+tags: ["Hugo", "Portfolio"]
 pinned: true
 weight: 5
 series: "notfeatured"
