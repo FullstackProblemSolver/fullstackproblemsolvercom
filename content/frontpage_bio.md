@@ -7,9 +7,7 @@ hideLastModified: true
 showInMenu: false
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
-
-
-<center><img src="badge_collage.png" alt="Showing Domain Name Search" style="width:75%"></center>
+<center><img src="badge_collage.png" alt="Showing Domain Name Search" style="width:100%"></center>
 
 
 **Full Stack Problem Solving** is a self-credentialization badging system concept embodying 3 basic actions: Learn, Apply, Teach.
