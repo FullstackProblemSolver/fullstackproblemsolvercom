@@ -19,9 +19,9 @@ This is a step by step guide for creating an online portfolio website in less th
 
 *Most importantly*, you will gain experience using some open source and technical tools such as:
 
-- **git** 
-- **markdown**
-- **Hugo** 
+- **git**  (for version control)
+- **markdown** (for content formatting)
+- **Hugo**  (static website generator)
 
 Don't worry if you aren't familiar with some (or all) of these terms or tools yet. The idea is to get you up and running so you will become familar with these technologies as you expand your online portfolio. Or, if you already know the tools, there is an opportunity for contributions to open source repositories (such as Hugo themes) and/or contributing to documentation (such as this write up).
 
@@ -37,66 +37,58 @@ There are some items you will need. If you dont have these they should be "Googl
 - **Hugo** installed and available from the command line
 - **$12/yr** to buy your own domain (it's your to keep)
 
-# Disclaimer:
-There are a million ways and technologies to accomplish creating an online portfolio. This is one recipe, that should work to get you up and running within an hour. Another recipe in the works for AWS, but this one is more straightforward if you are not in the AWS ecosystem yet. 
+    #### <span style="color:red">Disclaimer:<span>
+
+    There are a million ways and technologies to accomplish creating an online portfolio. This is one recipe, that should work to get you up and running within an hour. Another recipe in the works for AWS, but this one is more straightforward if you are not in the AWS ecosystem yet. 
 
 
 ## Step 1: Buying A Domain (on the cheap):
 
-There are many places you can buy a domain. Namecheap has worked well for us to be used for our portfolio. 
+There are many places you can buy a domain, the web address for your website. Namecheap has worked well for us and the namecheap platform allows use to reference our domain names where we need to.  Domain are priced annually. You can generally find affordable domains and have your own domain is an excellent investment in yourself. Also, you will have the rights of your domain name moving forward as long as you choose to renew your domain name each year.
 
-1. Go to  [namecheap.com](https://www.namecheap.com/)
-2. Log-in, or Create an account to log in
-3. In the search bar, type in the domain name you would like to use for your website (Ideally this would be something like [YourName].com)
+Log-in, or create account at  [namecheap.com](https://www.namecheap.com/) to search for and buy domain name you would like to use for your website. Ideally this would be something like "yourname.com".
 
 
->>### Some notes on pricing
->> Domain pricing is yearly cost is based on how common the words are in your domain search. More words are more valuable and will be priced higher. With some creativity you can often get the pricing down to $12 or less.
+#### Pricing Hints
 
->>#### Some pricing hints
+Domain pricing is yearly cost is based on how common the words are in your domain search. More words are more valuable and will be priced higher. With some creativity you can often get the pricing down to $12 or less.
 
->>For example, "howdyitsjenny,com" might be available and inexpensive in cases where  "www.jennysmith.com" is not available or or is priced > $12
+For example, "howdyitsjenny,com" might be available and inexpensive in cases where  "www.jennysmith.com" is not available or or is priced > $12
 
->>Another example: fullstackjimmy" might help you here if  "jimmyandre.com" is already taken or has a high price tag
+Another example: fullstackjimmy" might help you here if  "jimmyandre.com" is already taken or has a high price tag
  
+<center>{{< imageToClick imagePath = "./images/namecheap.png" Capition = "Name Cheap Name Search"  width ="50%">}}</center>
 
 
+## Step 2: Getting Git Setup
 
- ![namecheap](./images/namecheap.png)
+If you don't have a github account you will need one. You can sign up for free https://github.com/.
 
-<a href="./images/namecheap.png" data-lightbox="namecheap.png" data-title="My caption" maxWidth=50%><img src="./images/namecheap.png" alt="Showing Domain Name Search" style="width:20%"></a>
+Github is the technology platform but you also need to install git, the technoloyg, on your personal machine.
 
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/
 
+## Step 3: Install Hugo
 
-{{< imageToClick imagePath = "./images/namecheap.png"  width ="90%">}}
+https://gohugo.io/getting-started/installing/
 
+## Step 2: Create Your Personal Website
 
-{{< imageToClick imagePath = "./images/namecheap.png"  width ="80%">}}
-
-{{< imageToClick imagePath = "./images/namecheap.png"  width ="70%">}}
-{{< imageToClick imagePath = "./images/namecheap.png"  width ="60%">}}
-{{< imageToClick imagePath = "./images/namecheap.png"  width ="50%">}}
-{{< imageToClick imagePath = "./images/namecheap.png"  width ="40%">}}
-
-
-
-
-hello2
-
-5. You will be given a list of options and their respective prices
-6. Select the "Add to cart" button next to the domain name you would like to buy
-7. When you are ready click on the the Checkout icon at the bottom right
-8. Complete the Setup steps
-9. Enter your billing information
-10. Complete the Order
-
-# Create Your Personal Website:
 
 Start by retrieving our fullstack-portfolio-refresh theme.
 
-1. Go to fullstackproblemsolvers.com and get to the fullstack-portfolio-refresh Github repo
-2. Follow the directions in the Readme
-3. Go back to your command line and do a:
+**Step 1:** Go to fullstackproblemsolvers.com and get to the fullstack-portfolio-refresh Github repo
+
+**Step 2:** Follow the directions in the Readme
+
+**Step 3:** Go back to your command line and do a:
+
+
+{{< code language="term" >}}
+$ sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
+{{< /code >}}
+
+
 ```
 git add -A
 ```
