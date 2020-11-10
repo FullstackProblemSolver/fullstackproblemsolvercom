@@ -35,11 +35,12 @@ There are some items you will need. If you dont have these they should be "Googl
 - **Github account** (it's free)
 - **git** and available from the command line
 - **Hugo** installed and available from the command line
-- **$12/yr** to buy your own domain (it's your to keep)
+- **$12/year** to buy your own domain (it's your to keep)
 
-    #### <span style="color:red">Disclaimer:<span>
 
-    There are a million ways and technologies to accomplish creating an online portfolio. This is one recipe, that should work to get you up and running within an hour. Another recipe in the works for AWS, but this one is more straightforward if you are not in the AWS ecosystem yet. 
+##### <span style="color:red">Disclaimer:<span>
+
+There are a million ways and technologies to accomplish creating an online portfolio. This is one recipe, that should work to get you up and running within an hour. Another recipe in the works for AWS, but this one is more straightforward if you are not in the AWS ecosystem yet. 
 
 
 ## Step 1: Buying A Domain (on the cheap):
