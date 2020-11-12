@@ -19,7 +19,7 @@ Each of the three most common operating system flavors macOs, Windows, and Linux
 
 # Prerequisites
 
--A Windows Machine (with admin privledges )
+-A Windows Machine (with admin privileges )
 
 
 ##### <span style="color:red">Disclaimer:<span>
@@ -27,96 +27,36 @@ Each of the three most common operating system flavors macOs, Windows, and Linux
 You will be installing software as administrator so things can go wrong. While this is not expected, please have backups of your life and your machine before going crazy here. Sometimes things with software/hardware can and will go wrong.
 
 
-## Step 1: Chocolatey For Package Management
+## Tool #1: Chocolatey For Package Management
 
-There are many places you can buy a domain, the web address for your website. Namecheap has worked well for us and the namecheap platform allows use to reference our domain names where we need to.  Domain are priced annually. You can generally find affordable domains and have your own domain is an excellent investment in yourself. Also, you will have the rights of your domain name moving forward as long as you choose to renew your domain name each year.
+Chocolatey is a package manager for Windows. The goal of Chocolatey, and other package managers, is to allow users to download other software (aka packages) using a command line (aka terminal). Lots of people are used to installing software from (GUI) Graphical User Interface ie. downloading software from a website as an exe and using Window's install wizards to install the software. Chocolatey and other package manager complete install using commands in a command line interface. In the following instructions we are assuming that as a Windows user you will be using PowerShell as your command line interface. For fullstack development there will be a lot of efficiencies in using command line for installation. If this is unfamiliar to you just remember that practice makes perfect. 
 
-Log-in, or create account at  [namecheap.com](https://www.namecheap.com/) to search for and buy domain name you would like to use for your website. Ideally this would be something like "yourname.com".
+### Abbreviated Instructions
 
-
-#### Pricing Hints
-
-Domain pricing is yearly cost is based on how common the words are in your domain search. More words are more valuable and will be priced higher. With some creativity you can often get the pricing down to $12 or less.
-
-For example, "howdyitsjenny,com" might be available and inexpensive in cases where  "www.jennysmith.com" is not available or or is priced > $12
-
-Another example: fullstackjimmy" might help you here if  "jimmyandre.com" is already taken or has a high price tag
- 
-<center>{{< imageToClick imagePath = "./images/namecheap.png" Capition = "Name Cheap Name Search"  width ="50%">}}</center>
+Go to https://chocolatey.org/ and follow the install instructions. They are shown here for completeness, but may vary
 
 
-## Step 2: Getting Git Setup
+### Detailed Instructions (That Worked For Us)
 
-If you don't have a github account you will need one. You can sign up for free https://github.com/.
+Step 1. Open PowerShell from Windows Menu but make sure to right click and "Run As Administrator"
 
-Github is the technology platform but you also need to install git, the technoloyg, on your personal machine.
-
-https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/
-
-## Step 3: Install Hugo
-
-https://gohugo.io/getting-started/installing/
-
-## Step 2: Create Your Personal Website
-
-
-Start by retrieving our fullstack-portfolio-refresh theme.
-
-**Step 1:** Go to fullstackproblemsolvers.com and get to the fullstack-portfolio-refresh Github repo
-
-**Step 2:** Follow the directions in the Readme
-
-**Step 3:** Go back to your command line and do a:
-
+Step 2. Query Execution polity in PowerShell by entering:
 
 {{< code language="term" >}}
-$ sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
+Get-ExecutionPolicy 
 {{< /code >}}
 
 
 ```
-git add -A
+Get-ExecutionPolicy 
 ```
-4. Then do a:
-```
-git commit -m “Initial commit of personal website for [Insert your website name]”
-```
-5. Go to Github
-6. Create a new repository
-7. The repository name should be the same as what you named it on your local computer
-8. Leave all the initialization options as default, and Click “create repository”
-9. Use the “push an existing repository directions”
-10. Now go to Netlify
-11. Log-in or create account and then log in
-12. New site from Git
-13. Click on the Github tab
-14. Enter your github login info to connect netlify with your github account
-15. Select your new repository you just created
-16. For the build command put in hugo
-17. For publish directory put in public
-18. Click on Advanced
-19. In the key put hugo_version
-20. In the value put 0.58.3
-21. Click on Deploy Site
-22. Once the production deploys status changes to Published, move on to the next step
-23. Now lets setup your custom domain
-24. Click on add a custom domain
-25. Type in the domain name you purchased from namecheap
-26. Click on verify
-27. Click on the options click setup Netlify DNS
-28. Click continue
-29. Take the IP addresses provide and go back to namecheap
-30. Under my account  and click on manage domain
-31. Under name servers change to CUstom DNS
-32. Add the IP address (provided by Netlify) one by one
-33. Then go back to Nelify and click Done
-34. Allow 24 hours to complete step 3 of securing your site with  HTTPS
 
-And just like that you now have your personal website!
+3. Following the Chocately instructions - run command 
+Get-ExecutionPolicy 
 
-Now the last step to earning your personal website badge is to complete the Website Inspiration post that you we had you pre-load when you created your website. This post can be as detailed or broad as you want it to be, it just needs to talk about why you created your website. 
+mine returned Restricted so I followed instructions to run
 
-Once you complete the final step feel free to _____(NOT SURE WHAT TO PUT HERE????)
+the next command and then hit Yes
 
-Congrats! You have officially earned your Personal Website Badge!
 
+Hit enter a few times to make space on console
