@@ -45,7 +45,7 @@ There are a million ways and technologies to accomplish creating an online portf
 
 ## Step 1: Buying A Domain (on the cheap):
 
-There are many places you can buy a domain, the web address for your website. Namecheap has worked well for us and the namecheap platform allows use to reference our domain names where we need to.  Domain are priced annually. You can generally find affordable domains and have your own domain is an excellent investment in yourself. Also, you will have the rights of your domain name moving forward as long as you choose to renew your domain name each year.
+There are many places you can buy a domain, the web address for your website. You can generally find affordable domains and have your own domain is an excellent investment in yourself. Also, you will have the rights of your domain name moving forward as long as you choose to renew your domain name each year.
 
 Log-in, or create account at  [namecheap.com](https://www.namecheap.com/) to search for and buy domain name you would like to use for your website. Ideally this would be something like "yourname.com".
 
@@ -67,6 +67,8 @@ If you don't have a github account you will need one. You can sign up for free h
 
 Github is the technology platform but you also need to install git, the technoloyg, on your personal machine.
 
+This differs by your operation system (Mac, Windows, etc):
+
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/
 
 ## Step 3: Install Hugo
@@ -85,7 +87,7 @@ Start by retrieving our fullstack-portfolio-refresh theme.
 **Step 3:** Go back to your command line and do a:
 
 
-{{< code language="term" >}}
+{{< code language="term" style="Ir Black" >}}
 $ sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
 {{< /code >}}
 
