@@ -4,7 +4,7 @@ date: 2019-11-18T23:53:00+01:00
 draft: false
 hideLastModified: false
 summary: "A list and setup instruction for common fullstack tools and installs for Windows based machines"
-summaryImage: "images/0-Live_v3.png"
+summaryImage: "images/WindowToolkitBadge.png"
 tags: ["Windows", "Toolkit"]
 pinned: true
 weight: 5
