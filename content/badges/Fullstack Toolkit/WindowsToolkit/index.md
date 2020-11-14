@@ -54,9 +54,11 @@ Chocolatey is a package manager for Windows. The goal of Chocolatey, and other p
 
 Go to https://chocolatey.org/install and follow the install instructions. They are shown here for completeness, but may vary
 <div class="columns">
-    <div class="column is-8">
+<div class="column is-2"> </div>
+    <div class="column is-8 has-text-centered">
        {{< youtube id="n1KYu8pQWp8" >}}
 {{<rawhtml>}}
+<div class="column is-2"> </div>
 </div>
 </div>
 {{</ rawhtml>}}
@@ -166,7 +168,15 @@ Since you may be using Visual Studio Code to write some content, it is worth ins
 Here is how to install an useful extension called "Code Spell Checker".  The video does not show hitting "Install" since it had been previously installed.
 
 <div class="columns">
-    <div class="column is-half">
+<div class="column is-2"> </div>
+    <div class="column is-8 has-text-centered">
        {{< youtube id="lI3HKuZr78s" >}}
+{{<rawhtml>}}
+<div class="column is-2"> </div>
+</div>
+</div>
+{{</ rawhtml>}}
 
 {{< /box >}}
+
+
