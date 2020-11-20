@@ -49,92 +49,99 @@ There are many places you can buy a domain, the web address for your website. Yo
 
 Log-in, or create account at  [namecheap.com](https://www.namecheap.com/) to search for and buy domain name you would like to use for your website. Ideally this would be something like "yourname.com".
 
+{{< box >}}
 
 #### Pricing Hints
 
-Domain pricing is yearly cost is based on how common the words are in your domain search. More words are more valuable and will be priced higher. With some creativity you can often get the pricing down to $12 or less.
+Domain pricing is a yearly cost that is based on how common the words are in your domain search. More words are more valuable and will be priced higher. With some creativity you can often get the pricing down to $12 or less.
 
-For example, "howdyitsjenny,com" might be available and inexpensive in cases where  "www.jennysmith.com" is not available or or is priced > $12
+For example, "howdyitsjenny.com" might be available and inexpensive in cases where  "www.jennysmith.com" is not available or or is priced > $12
 
 Another example: fullstackjimmy" might help you here if  "jimmyandre.com" is already taken or has a high price tag
  
 <center>{{< imageToClick imagePath = "./images/namecheap.png" Capition = "Name Cheap Name Search"  width ="50%">}}</center>
 
+{{< /box >}}
 
 ## Step 2: Getting Git Setup
 
-If you don't have a github account you will need one. You can sign up for free https://github.com/.
+If you don't have a github account you will need one. You can sign up for free at https://github.com/.
 
-Github is the technology platform but you also need to install git, the technoloyg, on your personal machine.
+Github is the technology platform but you also need to install git, the technology, on your personal machine.
 
-This differs by your operation system (Mac, Windows, etc):
+Installing git will differ based on your operating system (Mac, Windows, etc). Below is the link to install git:
 
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/
 
 ## Step 3: Install Hugo
 
-https://gohugo.io/getting-started/installing/
+Hugo is one of the most popular open-source static site generators. As mentioned above there are a million ways and technologies to accomplish creating an online portfolio, this is one recipe. We choose to start with Hugo because some of the benefits it provides are its speed and flexibility. 
 
-## Step 2: Create Your Personal Website
+Here is a link to install Hugo: https://gohugo.io/getting-started/installing/
+
+## Step 4: Create Your Personal Website
+
+The final step is to actually create the your personal website, follow the detailed step by step directions below.
 
 
-Start by retrieving our fullstack-portfolio-refresh theme.
 
-**Step 1:** Go to fullstackproblemsolvers.com and get to the fullstack-portfolio-refresh Github repo
+**Step 1:** Start by retrieving our fullstack-portfolio-refresh theme from https://github.com/Full-Stack-Problem-Solvers/fullstack-portfolio-theme.
 
-**Step 2:** Follow the directions in the Readme
+**Step 2:** Follow the "Getting Started" directions in the Readme.
 
 **Step 3:** Go back to your command line and do a:
-
 
 {{< code language="term" style="Ir Black" >}}
 $ sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
 {{< /code >}}
 
+Then:
 
-```
+{{< code language="term" style="Ir Black" >}}
 git add -A
-```
-4. Then do a:
-```
+{{< /code >}}
+
+Followed by:
+
+{{< code language="term" style="Ir Black" >}}
 git commit -m “Initial commit of personal website for [Insert your website name]”
-```
-5. Go to Github
-6. Create a new repository
-7. The repository name should be the same as what you named it on your local computer
-8. Leave all the initialization options as default, and Click “create repository”
-9. Use the “push an existing repository directions”
-10. Now go to Netlify
-11. Log-in or create account and then log in
-12. New site from Git
-13. Click on the Github tab
-14. Enter your github login info to connect netlify with your github account
-15. Select your new repository you just created
-16. For the build command put in hugo
-17. For publish directory put in public
-18. Click on Advanced
-19. In the key put hugo_version
-20. In the value put 0.58.3
-21. Click on Deploy Site
-22. Once the production deploys status changes to Published, move on to the next step
-23. Now lets setup your custom domain
-24. Click on add a custom domain
-25. Type in the domain name you purchased from namecheap
-26. Click on verify
-27. Click on the options click setup Netlify DNS
-28. Click continue
-29. Take the IP addresses provide and go back to namecheap
-30. Under my account  and click on manage domain
-31. Under name servers change to CUstom DNS
-32. Add the IP address (provided by Netlify) one by one
-33. Then go back to Nelify and click Done
-34. Allow 24 hours to complete step 3 of securing your site with  HTTPS
+{{< /code >}}
+
+**Step 4:** Return to Github and create a new repository. Making sure to leave all the initialization options as default.
+
+> ###### *NOTE*: The repository name should be the same as what you named it on your local computer
+
+**Step 5:** Follow the “push an existing repository" directions
+
+**Step 6:** Finally go to Netlify to instantly build and deploy your site to their global network. Follow the steps below:
+
+> 
+1. Log-in or create account and then log in
+2. Click on **New site from Git**
+3. Click on the **Github** tab
+4. Enter your github login info to connect netlify with your github account
+5. Select your new repository you just created in the steps above
+6. For the Build Command put in "**hugo**"
+7. For Publish Directory put in "**public**"
+8. Click on **Advanced**
+9. In the Key put "**hugo_version**"
+10. In the Value put **0.58.3**
+11. Click on **Deploy Site**
+12. Once the production deploy status changes to **Published**, move on to the next step
+13. Now lets setup your custom domain by clicking on **Add a Custom Domain**
+15. Type in the domain name you purchased from namecheap
+16. Click on **Verify**
+17. Click **Setup Netlify DNS**
+18. Click continue
+19. Take the IP addresses provided and go back to **Namecheap**
+20. Under My Account, click on **Manage Domain**
+21. Under Name Servers change to **Custom DNS**
+22. Add the IP address (provided by Netlify) one by one
+23. Then go back to Nelify and click Done
+24. Allow 24 hours to complete step 3 of securing your site with  HTTPS
 
 And just like that you now have your personal website!
 
 Now the last step to earning your personal website badge is to complete the Website Inspiration post that you we had you pre-load when you created your website. This post can be as detailed or broad as you want it to be, it just needs to talk about why you created your website. 
 
-Once you complete the final step feel free to _____(NOT SURE WHAT TO PUT HERE????)
-
-Congrats! You have officially earned your Personal Website Badge!
-
+Once you complete that step, Congrats! You have officially earned your Personal Website Badge!

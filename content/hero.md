@@ -7,6 +7,8 @@ hideLastModified: true
 showInMenu: false
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
+{{< rawhtml >}}
+
 <center><img src="badge_collage.png" alt="Showing Domain Name Search" style="width:100%"></center>
 
-
+{{< /rawhtml >}}
