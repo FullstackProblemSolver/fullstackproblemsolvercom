@@ -30,7 +30,7 @@ Don't worry if you aren't familiar with any of these terms or tools yet. The ide
 Or, if you already know the tools, there is an opportunity for contributions to open source repositories (such as Hugo themes) and/or contributing to documentation (such as this write up).
 
 
-#### <span style="color:blue">Actions To Complete In This Section:</span> Game on! Just work through each of the sections below. 
+**Actions To Complete In This Section:** Game on! Just work through each of the sections below. 
 
 
 {{< /box >}}
