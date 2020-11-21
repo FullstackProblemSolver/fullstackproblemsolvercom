@@ -23,6 +23,7 @@ disableKinds: ["sitemap","RSS"]
 # Option to specify that all links will be open in a new tab.
 blackfriday:
   hrefTargetBlank: true
+  unsafe: true
 
 Taxonomies:
   tag: "tags"
@@ -30,6 +31,10 @@ Taxonomies:
 #this allows image assets to exists outside of theme
 assetDir: "static"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 # Supported fonts are:
 # https://fonts.google.com/

@@ -11,9 +11,11 @@ weight: 5
 series: "notfeatured"
 ---
 
-November 2020
+Last Modified: November 2020
 
-# Background
+
+{{< box >}}
+# Background: Manage Your Own Portfolio
 
 This is a step by step guide for creating an online portfolio website in less than 1 hour. The steps here provide an online portfolio that is based in open source software.  This means overtime you can expand or change the experience and or port the information over to other systems. 
 
@@ -23,37 +25,64 @@ This is a step by step guide for creating an online portfolio website in less th
 - **markdown** (for content formatting)
 - **Hugo**  (static website generator)
 
-Don't worry if you aren't familiar with some (or all) of these terms or tools yet. The idea is to get you up and running so you will become familar with these technologies as you expand your online portfolio. Or, if you already know the tools, there is an opportunity for contributions to open source repositories (such as Hugo themes) and/or contributing to documentation (such as this write up).
+Don't worry if you aren't familiar with any of these terms or tools yet. The idea is to get you up and running so you will become familiar with these technologies as you expand your online portfolio. 
 
- 
-Please note, as of November 2020 these steps were tested on a Mac and should also work without change for Linx based systems. These steps should work for a Windows but if you run into any issues, please raise an issue here. We are looking to include any Windows specific instructions and will credit anyone willing to help. 
+Or, if you already know the tools, there is an opportunity for contributions to open source repositories (such as Hugo themes) and/or contributing to documentation (such as this write up).
 
-# Prerequisites
 
-There are some items you will need. If you dont have these they should be "Google-able":
+#### <span style="color:blue">Actions To Complete In This Section:</span> Game on! Just work through each of the sections below. 
 
-- **Github account** (it's free)
+
+{{< /box >}}
+
+{{< box >}}
+
+# Prerequisites: Setup Your Machine With the Necessary Fullstack Tools
+
+There are some items you will need (and guides to help install, if required)
+
+Technologies installed on your machine:
+
 - **git** and available from the command line
 - **Hugo** installed and available from the command line
-- **$12/year** to buy your own domain (it's your to keep)
+- **Text Editor** we recommend installing Visual Studio Code (with a spell checker)
 
 
-##### <span style="color:red">Disclaimer:<span>
+**Follow the guide for you operating system below. Then come back to this page once you are setup with the installs:**
 
-There are a million ways and technologies to accomplish creating an online portfolio. This is one recipe, that should work to get you up and running within an hour. Another recipe in the works for AWS, but this one is more straightforward if you are not in the AWS ecosystem yet. 
+<div class="columns">
+    <div class="column is-half is-flex">
+        <center>Windows Toolkit Setup:</center>
+        <a href="{{< ref  "windowstoolkit" >}}"><img src="images/WindowToolkitBadge.png" alt="W3Schools.com" width="100%"></a></p>
+    </div>
+        <div class="column is-half is-flex">
+        <p>
+        <center>Mac Toolkit Setup:</center>
+        <p>
+        <a href="{{< ref  "windowstoolkit" >}}"><img src="images/WindowToolkitBadge.png" alt="W3Schools.com" width="100%"></a></p>
+    </div>
+</div>
+
+After the installs are complete sign up for a **Github account** (it's free) if you don't have one.
 
 
-## Step 1: Buying A Domain (on the cheap):
+#### <span style="color:blue">Actions To Complete In This Section:</span> Follow the setup instructions in the linked pages to comfirm your machines has the following fullstack tools: git, Hugo, and a recommended text editor.
+
+
+
+{{< /box >}}
+{{< box >}}
+## Buying A Domain (on the cheap):
 
 There are many places you can buy a domain, the web address for your website. You can generally find affordable domains and have your own domain is an excellent investment in yourself. Also, you will have the rights of your domain name moving forward as long as you choose to renew your domain name each year.
 
 Log-in, or create account at  [namecheap.com](https://www.namecheap.com/) to search for and buy domain name you would like to use for your website. Ideally this would be something like "yourname.com".
 
-{{< box >}}
+
 
 #### Pricing Hints
 
-Domain pricing is a yearly cost that is based on how common the words are in your domain search. More words are more valuable and will be priced higher. With some creativity you can often get the pricing down to $12 or less.
+Domain pricing is a yearly cost that is based on how common the words are in your domain search. More words are more valuable and will be priced higher. With some creativity you can often get the pricing down to $12 *per year* or less.
 
 For example, "howdyitsjenny.com" might be available and inexpensive in cases where  "www.jennysmith.com" is not available or or is priced > $12
 
@@ -62,6 +91,7 @@ Another example: fullstackjimmy" might help you here if  "jimmyandre.com" is alr
 <center>{{< imageToClick imagePath = "./images/namecheap.png" Capition = "Name Cheap Name Search"  width ="50%">}}</center>
 
 {{< /box >}}
+
 
 ## Step 2: Getting Git Setup
 
