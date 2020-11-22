@@ -1,5 +1,5 @@
 ---
-title: "Zero to Live: Step By Step Guide For Setting Up Your Online Portfolio"
+title: "Build A Website Portfolio Using Open Source Technology"
 date: 2019-11-18T23:53:00+01:00
 draft: false
 hideLastModified: false
@@ -10,6 +10,18 @@ pinned: true
 weight: 5
 series: "notfeatured"
 ---
+
+{{<rawhtml>}}
+<div class="columns">
+<div class="column is-3"></div>
+    <div class="column is-6">
+       <img src="./images/personalWebsiteBadge.png" alt="Open Source Portfolio" style="width:80%">
+<div class="column is-3"></div>
+</div>
+</div>
+{{</ rawhtml>}}
+
+
 
 Last Modified: November 2020
 
@@ -92,7 +104,7 @@ Another example: fullstackjimmy" might help you here if  "jimmyandre.com" is alr
 
 {{< /box >}}
 
-
+<a id="Talk"></a>
 ## Step 2: Getting Git Setup
 
 If you don't have a github account you will need one. You can sign up for free at https://github.com/.
