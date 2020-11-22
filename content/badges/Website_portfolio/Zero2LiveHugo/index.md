@@ -13,12 +13,13 @@ series: "notfeatured"
 
 {{<rawhtml>}}
 <div class="columns">
-<div class="column is-3"></div>
+    <div class="column is-3"></div>
     <div class="column is-6">
-       <img src="./images/personalWebsiteBadge.png" alt="Open Source Portfolio" style="width:80%">
+       <center><img src="./images/personalWebsiteBadge.png" alt="Open Source Portfolio" style="width:80%">
+    </div>
 <div class="column is-3"></div>
 </div>
-</div>
+
 {{</ rawhtml>}}
 
 
