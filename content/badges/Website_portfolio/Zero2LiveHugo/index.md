@@ -36,6 +36,10 @@ This time for completing this guide will vary. We have practice and can complete
 
 Since this is new  we want to help people that get stuck.  If you get stuck feel free to raise an issue in our Github project and we will try to help you. Please provide a screenshot, detail the step you are stuck at, and please include your operating system(Windows/Mac) when submitting an issue. We want to be friendly to people who are new to git and Github so do not be shy about submitting an issue here.
 
+# Criteria for Earning Badge 
+
+Follow the steps below to build your personal website and then complete the Website Inspiration post that you we will have you pre-load when you create your website. This post can be as detailed or broad as you want it to be, it just needs to talk about why you created your website.
+
 # Background
 
 The inspiration behind this guide came from the authors shared time on an agile scrum team. Our past team bonded over continuously learning, diving into gnarly business analysis, and building technical solutions across various technologies.  We termed these aspects of our teamwork as “full stack problem solving”.  
@@ -46,10 +50,11 @@ In order to accelerate our learning we came up with a system that embraced Agile
 
 We agreed that once you were able to deliver a show-n-tell/share-what-you-learnt as a blog post we’d grant each other a learning badge (to trigger our reward/dopamine centers) to reinforce the reward for continuous learning. There would be many advantages to this -- one being that our own journeys would, in turn, be documented for us when we needed them for reference. 
 
-But first step first. We needed to figure out two manage and deploy content using an open source framework. And then...document it. A la this page. 
+But first step first. We needed to figure out how two manage and deploy content using an open source framework. And then...document it. A la this page. 
 
 # Get Inspired
 
+#### *FROM TONY: Pete I am not seeing the purpose of this section????*
 Maybe you are already inspired if you have read this far. But if you are still on the fence let's talk about "the pitch" for creating an online portfolio. Or even more specifically why you should build your own using open source technologies.
 
 
@@ -76,41 +81,37 @@ Or, if you already know the tools, there is an opportunity for contributions to 
 
 {{< box >}}
 
-# Prerequisites: Setup Your Machine With the Necessary Fullstack Tools
+# Prerequisites: Fullstack Machine Tools and Setup
 
-There are some items you will need (and guides to help install, if required)
+There are some items you will need to make sure you have installed in order to proceed.
 
-Technologies installed on your machine:
+Comfirm you have the following fullstack tools and technologies installed on your machine:
 
 - **git** and available from the command line
 - **Hugo** installed and available from the command line
 - **Text Editor** we recommend installing Visual Studio Code (with a spell checker)
+- **Github Account** - it's free to install!
 
-
-**Follow the guide for you operating system below. Then come back to this page once you are setup with the installs:**
+*For assistance with confirming proper machine setup, follow the respective guide below based on your operating system. Then come back to this page once you are setup with the installs:*
+| --- |
 
 <div class="columns">
     <div class="column is-half is-flex">
-        <center>Windows Toolkit Setup:</center>
+        <center><b>Windows Toolkit Setup:</b></center>
         <a href="{{< ref  "windowstoolkit" >}}"><img src="images/WindowToolkitBadge.png" alt="W3Schools.com" width="100%"></a></p>
     </div>
         <div class="column is-half is-flex">
         <p>
-        <center>Mac Toolkit Setup:</center>
+        <center><b>Mac Toolkit Setup:</b></center>
         <p>
         <a href="{{< ref  "windowstoolkit" >}}"><img src="images/WindowToolkitBadge.png" alt="W3Schools.com" width="100%"></a></p>
     </div>
 </div>
 
-After the installs are complete sign up for a **Github account** (it's free) if you don't have one.
-
-
-#### <span style="color:blue">Actions To Complete In This Section:</span> Follow the setup instructions in the linked pages to comfirm your machines has the following fullstack tools: git, Hugo, and a recommended text editor.
-
-
-
 {{< /box >}}
+
 {{< box >}}
+
 ## Buying A Domain (on the cheap):
 
 There are many places you can buy a domain, the web address for your website. You can generally find affordable domains and have your own domain is an excellent investment in yourself. Also, you will have the rights of your domain name moving forward as long as you choose to renew your domain name each year.
@@ -132,6 +133,9 @@ Another example: fullstackjimmy" might help you here if  "jimmyandre.com" is alr
 {{< /box >}}
 
 <a id="Talk"></a>
+
+{{< box >}}
+
 ## Step 2: Getting Git Setup
 
 If you don't have a github account you will need one. You can sign up for free at https://github.com/.
@@ -142,11 +146,19 @@ Installing git will differ based on your operating system (Mac, Windows, etc). B
 
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/
 
+{{< /box >}}
+
+{{< box >}}
+
 ## Step 3: Install Hugo
 
 Hugo is one of the most popular open-source static site generators. As mentioned above there are a million ways and technologies to accomplish creating an online portfolio, this is one recipe. We choose to start with Hugo because some of the benefits it provides are its speed and flexibility. 
 
 Here is a link to install Hugo: https://gohugo.io/getting-started/installing/
+
+{{< /box >}}
+
+{{< box >}}
 
 ## Step 4: Create Your Personal Website
 
@@ -184,33 +196,34 @@ git commit -m “Initial commit of personal website for [Insert your website nam
 
 **Step 6:** Finally go to Netlify to instantly build and deploy your site to their global network. Follow the steps below:
 
-> 
-1. Log-in or create account and then log in
-2. Click on **New site from Git**
-3. Click on the **Github** tab
-4. Enter your github login info to connect netlify with your github account
-5. Select your new repository you just created in the steps above
-6. For the Build Command put in "**hugo**"
-7. For Publish Directory put in "**public**"
-8. Click on **Advanced**
-9. In the Key put "**hugo_version**"
-10. In the Value put **0.58.3**
-11. Click on **Deploy Site**
-12. Once the production deploy status changes to **Published**, move on to the next step
-13. Now lets setup your custom domain by clicking on **Add a Custom Domain**
-15. Type in the domain name you purchased from namecheap
-16. Click on **Verify**
-17. Click **Setup Netlify DNS**
-18. Click continue
-19. Take the IP addresses provided and go back to **Namecheap**
-20. Under My Account, click on **Manage Domain**
-21. Under Name Servers change to **Custom DNS**
-22. Add the IP address (provided by Netlify) one by one
-23. Then go back to Nelify and click Done
-24. Allow 24 hours to complete step 3 of securing your site with  HTTPS
+> 1. Log-in or create account and then log in
+> 2. Click on **New site from Git**
+> 3. Click on the **Github** tab
+> 4. Enter your github login info to connect netlify with your github account
+> 5. Select your new repository you just created in the steps above
+> 6. For the Build Command put in "**hugo**"
+> 7. For Publish Directory put in "**public**"
+> 8. Click on **Advanced**
+> 9. In the Key put "**hugo_version**"
+> 10. In the Value put **0.58.3**
+> 11. Click on **Deploy Site**
+> 12. Once the production deploy status changes to **Published**, move on to the next step
+> 13. Now lets setup your custom domain by clicking on **Add a Custom Domain**
+> 14. Type in the domain name you purchased from namecheap
+> 15. Click on **Verify**
+> 16. Click **Setup Netlify DNS**
+> 17. Click continue
+> 18. Take the IP addresses provided and go back to **Namecheap**
+> 19. Under My Account, click on **Manage Domain**
+> 20. Under Name Servers change to **Custom DNS**
+> 21. Add the IP address (provided by Netlify) one by one
+> 22. Then go back to Nelify and click Done
+> 23. Allow 24 hours to complete step 3 of securing your site with  HTTPS
+
+{{< /box >}}
 
 And just like that you now have your personal website!
 
-Now the last step to earning your personal website badge is to complete the Website Inspiration post that you we had you pre-load when you created your website. This post can be as detailed or broad as you want it to be, it just needs to talk about why you created your website. 
+Now, don't forget to complete the final step to earning your personal website badge by completing the Website Inspiration post that you we had you pre-load when you created your website. Remember, this post can be as detailed or broad as you want it to be, it just needs to talk about why you created your website. 
 
 Once you complete that step, Congrats! You have officially earned your Personal Website Badge!
