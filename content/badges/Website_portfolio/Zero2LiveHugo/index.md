@@ -34,7 +34,8 @@ Following this guide should allow anyone to setup their own website as an online
 
 This time for completing this guide will vary. We have practice and can complete it from start to finish in 15 minutes or so. If this is your first time setting up a website, or if you are new to these technologies it may take an hour or longer. The following sections can be complete piece-meal if you are unable to complete the entire guide in one sitting. 
 
-Since this is new  we want to help people that get stuck.  If you get stuck feel free to raise an issue in our Github project and we will try to help you. Please provide a screenshot, detail the step you are stuck at, and please include your operating system(Windows/Mac) when submitting an issue. We want to be friendly to people who are new to git and Github so do not be shy about submitting an issue here.
+Since this is new  we want to help people that get stuck.  If you get stuck feel free to raise an issue in our Github project and we will try to help you. Please provide a screenshot, detail the step you are stuck at, and please include your operating system(Windows/Mac) when submitting an issue. We want to be friendly to people who are new to git and Github so do not be shy about submitting an issue here: 
+[Create Issue in GitHub](https://github.com/FullstackProblemSolver/fullstack-portfolio-refresh/issues)
 
 # Criteria for Earning Badge 
 
@@ -51,11 +52,6 @@ In order to accelerate our learning we came up with a system that embraced Agile
 We agreed that once you were able to deliver a show-n-tell/share-what-you-learnt as a blog post we’d grant each other a learning badge (to trigger our reward/dopamine centers) to reinforce the reward for continuous learning. There would be many advantages to this -- one being that our own journeys would, in turn, be documented for us when we needed them for reference. 
 
 But first step first. We needed to figure out how two manage and deploy content using an open source framework. And then...document it. A la this page. 
-
-# Get Inspired
-
-#### *FROM TONY: Pete I am not seeing the purpose of this section????*
-Maybe you are already inspired if you have read this far. But if you are still on the fence let's talk about "the pitch" for creating an online portfolio. Or even more specifically why you should build your own using open source technologies.
 
 
 {{< box >}}
