@@ -166,7 +166,7 @@ The final step is to actually create the your personal website, follow the detai
 
 
 
-**Step 1:** Start by retrieving our fullstack-portfolio-refresh theme from https://github.com/Full-Stack-Problem-Solvers/fullstack-portfolio-theme.
+**Step 1:** Start by retrieving our fullstack-portfolio-refresh theme from https://github.com/FullstackProblemSolver/fullstack-portfolio-refresh.
 
 **Step 2:** Follow the "Getting Started" directions in the Readme.
 
